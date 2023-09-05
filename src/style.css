@@ -1,19 +1,47 @@
+body {
+  font-family: "My Soul", cursive;
+  text-align: center;
+  background-color: #000;
+  color: hsl(69 64% 67% / 1);
+  margin: 0;
+}
+
 div.wrapper {
   margin: 0 auto;
 }
-div.nested {
-  position: absolute;
-  top: 550px;
-  left: 170px;
-}
+
 img {
-  width: 100%;
+  width: 75vw;
   height: auto;
-  max-width: 800px;
+  border-bottom: 2.5px ridge hsl(69 64% 67% / 1);
 }
 h1 {
   color: hsl(69 64% 67% / 1);
   font-size: 64px;
-  font-family: "My Soul", cursive;
   margin: 0;
+}
+table {
+  font-size: 32px;
+  margin: 0 auto;
+  width: 65%;
+}
+th,
+td {
+  padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+  table {
+    font-size: 28px;
+  }
+}
+@media (max-width: 650px) {
+  table {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  table {
+    font-size: 21px;
+  }
 }
