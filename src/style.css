@@ -1,9 +1,9 @@
 body {
-  font-family: "My Soul", cursive;
-  text-align: center;
-  background-color: #000;
+  background-color: hsl(0, 0%, 0%);
   color: hsl(69 64% 67% / 1);
+  font-family: "My Soul", cursive;
   margin: 0;
+  text-align: center;
 }
 
 div.wrapper {
@@ -11,9 +11,10 @@ div.wrapper {
 }
 
 img {
-  width: 75vw;
+  border-bottom: 2px ridge hsl(69 64% 67% / 1);
+  border-radius: 2px;
   height: auto;
-  border-bottom: 2.5px ridge hsl(69 64% 67% / 1);
+  width: 75vw;
 }
 h1 {
   color: hsl(69 64% 67% / 1);
@@ -21,8 +22,10 @@ h1 {
   margin: 0;
 }
 table {
+  background-color: hsl(39.82deg 4.53% 19.57% / 88%);
+  border-radius: 2px;
   font-size: 32px;
-  margin: 0 auto;
+  margin: 18px auto;
   width: 65%;
 }
 th,
