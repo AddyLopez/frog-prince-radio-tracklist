@@ -1,0 +1,19 @@
+div.wrapper {
+  margin: 0 auto;
+}
+div.nested {
+  position: absolute;
+  top: 550px;
+  left: 170px;
+}
+img {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+}
+h1 {
+  color: hsl(69 64% 67% / 1);
+  font-size: 64px;
+  font-family: "My Soul", cursive;
+  margin: 0;
+}
