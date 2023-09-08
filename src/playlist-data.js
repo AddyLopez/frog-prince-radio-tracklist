@@ -299,10 +299,10 @@ export const playlist = [
   },
   {
     id: 38,
-    song: artists[17].albums[2].songs[1].title,
+    song: artists[17].albums[2].songs[2].title,
     artist: artists[17].name,
     album: artists[17].albums[2].title,
-    duration: artists[17].albums[2].songs[1].duration,
+    duration: artists[17].albums[2].songs[2].duration,
     released: artists[17].albums[2].released,
   },
   {

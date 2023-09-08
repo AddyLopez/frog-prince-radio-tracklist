@@ -842,6 +842,10 @@ export const artists = {
             title: "I Do Not Want What I Haven't Got",
             duration: "5:48",
           },
+          {
+            title: "Jump in the River",
+            duration: "4:12",
+          },
         ],
       },
       {
