@@ -323,7 +323,7 @@ export const artists = {
             duration: "3:59",
           },
           {
-            title: "Pieces of Your",
+            title: "Pieces of You",
             duration: "4:16",
           },
           {
@@ -426,7 +426,7 @@ export const artists = {
     ],
   },
   9: {
-    name: "Kristin Hersch",
+    name: "Kristin Hersh",
     albums: [
       {
         title: "Hips and Makers",
@@ -711,7 +711,7 @@ export const artists = {
         ],
       },
       {
-        title: "Mirror",
+        title: "Mirrorball",
         released: "1999",
         songs: [
           {
