@@ -195,10 +195,10 @@ export const playlist = [
   },
   {
     id: 25,
-    song: artists[3].albums[0].songs[0].title,
+    song: artists[3].albums[0].songs[1].title,
     artist: artists[3].name,
     album: artists[3].albums[0].title,
-    duration: artists[3].albums[0].songs[0].duration,
+    duration: artists[3].albums[0].songs[1].duration,
     released: artists[3].albums[0].released,
   },
   {
