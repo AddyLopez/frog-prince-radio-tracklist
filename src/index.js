@@ -1,30 +1,38 @@
 import { playlist } from "./playlist-data.js";
 
 const table = document.getElementById("table");
-const columnHeaders = ["#", "song", "artist", "album", "duration", "released"];
 
-const createTableHead = (table, data) => {
+const createTableHead = (table) => {
+  const columnHeaders = [
+    "#",
+    "song",
+    "artist",
+    "album",
+    "duration",
+    "released",
+  ];
   const tableHead = table.createTHead(); // specific method of HTMLTableElement, preferable to generic createElement method
   const row = tableHead.insertRow(); // specific method of HTMLTableElement
-  for (let element of data) {
+  for (let columnHeader of columnHeaders) {
     const th = document.createElement("th");
-    const text = document.createTextNode(element);
+    const text = document.createTextNode(columnHeader);
     th.appendChild(text);
     row.appendChild(th);
   }
 };
 
-/*const createTable = (table, data) => {
-  let ids = Object.keys(artists);
-  for (let artist in artists) {
+const createTable = (table, data) => {
+  for (let element of data) {
     const row = table.insertRow();
-    let cell = row.insertCell();
-    let idText = document.createTextNode(ids[artist]);
-    cell.appendChild(idText);
+    for (let property in element) {
+      let cell = row.insertCell();
+      let text = document.createTextNode(element[property]);
+      cell.appendChild(text);
+    }
   }
-};*/
+};
 
-createTableHead(table, columnHeaders);
-//createTable(table, columnHeaders);
+createTable(table, playlist);
+createTableHead(table);
 
 console.log(playlist);

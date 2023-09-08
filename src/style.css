@@ -3,16 +3,23 @@ body {
   color: hsl(69 64% 67% / 1);
   font-family: "My Soul", cursive;
   margin: 0;
+  letter-spacing: 1.5px;
+}
+
+div.image-wrapper {
+  margin: 0 auto;
   text-align: center;
 }
 
-div.wrapper {
+div.table-wrapper {
   margin: 0 auto;
+  overflow: scroll;
 }
 
 img {
-  border-bottom: 2px ridge hsl(69 64% 67% / 1);
+  border-bottom: 2px ridge hsl(68.89deg 64.29% 67.06% / 48%);
   border-radius: 2px;
+  margin-bottom: 5px;
   height: auto;
   width: 75vw;
 }
@@ -26,25 +33,50 @@ table {
   border-radius: 2px;
   font-size: 32px;
   margin: 18px auto;
-  width: 65%;
+  width: 81%;
+  table-layout: auto;
+  border-collapse: collapse;
 }
+
+tbody {
+  font-size: 22px;
+}
+
 th,
 td {
   padding: 5px 10px;
+  border: 1px solid #383f32;
+}
+
+th {
+  font-weight: bold;
 }
 
 @media (max-width: 800px) {
   table {
-    font-size: 28px;
+    font-size: 26px;
+  }
+  tbody {
+    font-size: 18px;
   }
 }
 @media (max-width: 650px) {
   table {
-    font-size: 24px;
+    font-size: 22px;
+  }
+  tbody {
+    font-size: 17px;
+  }
+  th,
+  td {
+    padding: 2px 4px;
   }
 }
 @media (max-width: 600px) {
   table {
-    font-size: 21px;
+    font-size: 20px;
+  }
+  tbody {
+    font-size: 16px;
   }
 }
