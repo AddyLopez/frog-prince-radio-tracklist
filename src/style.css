@@ -62,12 +62,11 @@ img {
 
 table {
   background-color: hsl(39.82deg 4.53% 19.57% / 88%);
-  border-radius: 2px;
+  border-collapse: collapse;
   font-size: 32px;
   margin: 18px auto;
-  width: 81%;
   table-layout: auto;
-  border-collapse: collapse;
+  width: 81%;
 }
 
 tbody {
@@ -82,6 +81,12 @@ td {
 
 th {
   font-weight: bold;
+}
+
+footer {
+  font-size: 18px;
+  margin: 16px 0 32px 0;
+  text-align: center;
 }
 
 @media (max-width: 800px) {
