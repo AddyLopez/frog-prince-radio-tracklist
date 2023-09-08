@@ -27,10 +27,10 @@ export const playlist = [
   },
   {
     id: 4,
-    song: artists[6].albums[0].songs[0].title,
+    song: artists[6].albums[0].songs[3].title,
     artist: artists[6].name,
     album: artists[6].albums[0].title,
-    duration: artists[6].albums[0].songs[0].duration,
+    duration: artists[6].albums[0].songs[3].duration,
     released: artists[6].albums[0].released,
   },
   {
