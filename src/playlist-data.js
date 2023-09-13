@@ -827,10 +827,10 @@ export const playlist = [
   },
   {
     id: 104,
-    song: artists[4].albums[3].songs[1].title,
+    song: artists[4].albums[3].songs[0].title,
     artist: artists[4].name,
     album: artists[4].albums[3].title,
-    duration: artists[4].albums[3].songs[1].duration,
+    duration: artists[4].albums[3].songs[0].duration,
     released: artists[4].albums[3].released,
   },
   {

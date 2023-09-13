@@ -779,6 +779,10 @@ export const artists = {
             title: "It Don't Hurt",
             duration: "4:50",
           },
+          {
+            title: "Crash and Burn",
+            duration: "6:42",
+          },
         ],
       },
       {
