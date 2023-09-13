@@ -859,10 +859,10 @@ export const playlist = [
   },
   {
     id: 108,
-    song: artists[10].albums[2].songs[5].title,
+    song: artists[10].albums[2].songs[4].title,
     artist: artists[10].name,
     album: artists[10].albums[2].title,
-    duration: artists[10].albums[2].songs[5].duration,
+    duration: artists[10].albums[2].songs[4].duration,
     released: artists[10].albums[2].released,
   },
   {

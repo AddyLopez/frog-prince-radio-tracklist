@@ -197,10 +197,6 @@ export const artists = {
             title: "She Says",
             duration: "3:36",
           },
-          {
-            title: "Looking for Holes",
-            duration: "3:33",
-          },
         ],
       },
       {
@@ -537,10 +533,6 @@ export const artists = {
           },
           {
             title: "Go On Ahead",
-            duration: "2:53",
-          },
-          {
-            title: "Headache",
             duration: "2:53",
           },
           {
