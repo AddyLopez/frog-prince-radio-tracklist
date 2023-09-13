@@ -83,11 +83,11 @@ export const playlist = [
   },
   {
     id: 11,
-    song: artists[16].albums[1].songs[0].title,
+    song: artists[16].albums[2].songs[1].title,
     artist: artists[16].name,
-    album: artists[16].albums[1].title,
-    duration: artists[16].albums[1].songs[0].duration,
-    released: artists[16].albums[1].released,
+    album: artists[16].albums[2].title,
+    duration: artists[16].albums[2].songs[1].duration,
+    released: artists[16].albums[2].released,
   },
   {
     id: 12,

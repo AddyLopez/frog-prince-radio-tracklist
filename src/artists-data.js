@@ -780,8 +780,12 @@ export const artists = {
         released: "1998",
         songs: [
           {
-            title: "Am I Getting Through - Pt.1 & 2",
-            duration: "5:31",
+            title: "Riverwide",
+            duration: "4:07",
+          },
+          {
+            title: "It Don't Hurt",
+            duration: "4:50",
           },
         ],
       },
@@ -792,6 +796,10 @@ export const artists = {
           {
             title: "Leaving Las Vegas",
             duration: "5:09",
+          },
+          {
+            title: "No One Said It Would Be Easy",
+            duration: "5:29",
           },
           {
             title: "What I Can Do for You",
