@@ -820,6 +820,14 @@ export const playlist = [
   },
   {
     id: 103,
+    song: artists[16].albums[1].songs[2].title,
+    artist: artists[16].name,
+    album: artists[16].albums[1].title,
+    duration: artists[16].albums[1].songs[2].duration,
+    released: artists[16].albums[1].released,
+  },
+  {
+    id: 104,
     song: artists[8].albums[3].songs[0].title,
     artist: artists[8].name,
     album: artists[8].albums[3].title,
@@ -827,7 +835,7 @@ export const playlist = [
     released: artists[8].albums[3].released,
   },
   {
-    id: 104,
+    id: 105,
     song: artists[7].albums[1].songs[0].title,
     artist: artists[7].name,
     album: artists[7].albums[1].title,
@@ -835,7 +843,7 @@ export const playlist = [
     released: artists[7].albums[1].released,
   },
   {
-    id: 105,
+    id: 106,
     song: artists[4].albums[3].songs[0].title,
     artist: artists[4].name,
     album: artists[4].albums[3].title,
@@ -843,7 +851,7 @@ export const playlist = [
     released: artists[4].albums[3].released,
   },
   {
-    id: 106,
+    id: 107,
     song: artists[12].albums[0].songs[0].title,
     artist: artists[12].name,
     album: artists[12].albums[0].title,
@@ -851,7 +859,7 @@ export const playlist = [
     released: artists[12].albums[0].released,
   },
   {
-    id: 107,
+    id: 108,
     song: artists[1].albums[0].songs[0].title,
     artist: artists[1].name,
     album: artists[1].albums[0].title,
@@ -859,7 +867,7 @@ export const playlist = [
     released: artists[1].albums[0].released,
   },
   {
-    id: 108,
+    id: 109,
     song: artists[8].albums[0].songs[0].title,
     artist: artists[8].name,
     album: artists[8].albums[0].title,
@@ -867,7 +875,7 @@ export const playlist = [
     released: artists[8].albums[0].released,
   },
   {
-    id: 109,
+    id: 110,
     song: artists[10].albums[2].songs[4].title,
     artist: artists[10].name,
     album: artists[10].albums[2].title,
@@ -875,7 +883,7 @@ export const playlist = [
     released: artists[10].albums[2].released,
   },
   {
-    id: 110,
+    id: 111,
     song: artists[19].albums[1].songs[0].title,
     artist: artists[19].name,
     album: artists[19].albums[1].title,
@@ -883,7 +891,7 @@ export const playlist = [
     released: artists[19].albums[1].released,
   },
   {
-    id: 111,
+    id: 112,
     song: artists[5].albums[0].songs[0].title,
     artist: artists[5].name,
     album: artists[5].albums[0].title,
@@ -891,7 +899,7 @@ export const playlist = [
     released: artists[5].albums[0].released,
   },
   {
-    id: 112,
+    id: 113,
     song: artists[16].albums[0].songs[0].title,
     artist: artists[16].name,
     album: artists[16].albums[0].title,
@@ -899,7 +907,7 @@ export const playlist = [
     released: artists[16].albums[0].released,
   },
   {
-    id: 113,
+    id: 114,
     song: artists[20].albums[2].songs[1].title,
     artist: artists[20].name,
     album: artists[20].albums[2].title,
@@ -907,7 +915,7 @@ export const playlist = [
     released: artists[20].albums[2].released,
   },
   {
-    id: 114,
+    id: 115,
     song: artists[2].albums[0].songs[0].title,
     artist: artists[2].name,
     album: artists[2].albums[0].title,
@@ -915,7 +923,7 @@ export const playlist = [
     released: artists[2].albums[0].released,
   },
   {
-    id: 115,
+    id: 116,
     song: artists[12].albums[1].songs[0].title,
     artist: artists[12].name,
     album: artists[12].albums[1].title,
@@ -923,7 +931,7 @@ export const playlist = [
     released: artists[12].albums[1].released,
   },
   {
-    id: 116,
+    id: 117,
     song: artists[10].albums[1].songs[0].title,
     artist: artists[10].name,
     album: artists[10].albums[1].title,
@@ -931,7 +939,7 @@ export const playlist = [
     released: artists[10].albums[1].released,
   },
   {
-    id: 117,
+    id: 118,
     song: artists[8].albums[2].songs[0].title,
     artist: artists[8].name,
     album: artists[8].albums[2].title,
@@ -939,7 +947,7 @@ export const playlist = [
     released: artists[8].albums[2].released,
   },
   {
-    id: 118,
+    id: 119,
     song: artists[2].albums[0].songs[3].title,
     artist: artists[2].name,
     album: artists[2].albums[0].title,
@@ -947,7 +955,7 @@ export const playlist = [
     released: artists[2].albums[0].released,
   },
   {
-    id: 119,
+    id: 120,
     song: artists[13].albums[1].songs[2].title,
     artist: artists[13].name,
     album: artists[13].albums[1].title,
@@ -955,7 +963,7 @@ export const playlist = [
     released: artists[13].albums[1].released,
   },
   {
-    id: 120,
+    id: 121,
     song: artists[5].albums[0].songs[2].title,
     artist: artists[5].name,
     album: artists[5].albums[0].title,
@@ -963,7 +971,7 @@ export const playlist = [
     released: artists[5].albums[0].released,
   },
   {
-    id: 121,
+    id: 122,
     song: artists[20].albums[2].songs[0].title,
     artist: artists[20].name,
     album: artists[20].albums[2].title,
@@ -971,7 +979,7 @@ export const playlist = [
     released: artists[20].albums[2].released,
   },
   {
-    id: 122,
+    id: 123,
     song: artists[15].albums[4].songs[2].title,
     artist: artists[15].name,
     album: artists[15].albums[4].title,
@@ -979,7 +987,7 @@ export const playlist = [
     released: artists[15].albums[4].released,
   },
   {
-    id: 123,
+    id: 124,
     song: artists[18].albums[0].songs[0].title,
     artist: artists[18].name,
     album: artists[18].albums[0].title,
@@ -987,7 +995,7 @@ export const playlist = [
     released: artists[18].albums[0].released,
   },
   {
-    id: 124,
+    id: 125,
     song: artists[13].albums[1].songs[1].title,
     artist: artists[13].name,
     album: artists[13].albums[1].title,
@@ -995,7 +1003,7 @@ export const playlist = [
     released: artists[13].albums[1].released,
   },
   {
-    id: 125,
+    id: 126,
     song: artists[10].albums[1].songs[2].title,
     artist: artists[10].name,
     album: artists[10].albums[1].title,
@@ -1003,7 +1011,7 @@ export const playlist = [
     released: artists[10].albums[1].released,
   },
   {
-    id: 126,
+    id: 127,
     song: artists[1].albums[0].songs[1].title,
     artist: artists[1].name,
     album: artists[1].albums[0].title,
@@ -1011,7 +1019,7 @@ export const playlist = [
     released: artists[1].albums[0].released,
   },
   {
-    id: 127,
+    id: 128,
     song: artists[17].albums[2].songs[0].title,
     artist: artists[17].name,
     album: artists[17].albums[2].title,
@@ -1019,7 +1027,7 @@ export const playlist = [
     released: artists[17].albums[2].released,
   },
   {
-    id: 128,
+    id: 129,
     song: artists[20].albums[0].songs[1].title,
     artist: artists[20].name,
     album: artists[20].albums[0].title,
@@ -1027,7 +1035,7 @@ export const playlist = [
     released: artists[20].albums[0].released,
   },
   {
-    id: 129,
+    id: 130,
     song: artists[6].albums[1].songs[0].title,
     artist: artists[6].name,
     album: artists[6].albums[1].title,
@@ -1035,7 +1043,7 @@ export const playlist = [
     released: artists[6].albums[1].released,
   },
   {
-    id: 130,
+    id: 131,
     song: artists[16].albums[2].songs[1].title,
     artist: artists[16].name,
     album: artists[16].albums[2].title,
@@ -1043,7 +1051,7 @@ export const playlist = [
     released: artists[16].albums[2].released,
   },
   {
-    id: 131,
+    id: 132,
     song: artists[18].albums[1].songs[0].title,
     artist: artists[18].name,
     album: artists[18].albums[1].title,
@@ -1051,7 +1059,7 @@ export const playlist = [
     released: artists[18].albums[1].released,
   },
   {
-    id: 132,
+    id: 133,
     song: artists[20].albums[1].songs[0].title,
     artist: artists[20].name,
     album: artists[20].albums[1].title,
@@ -1059,7 +1067,7 @@ export const playlist = [
     released: artists[20].albums[1].released,
   },
   {
-    id: 133,
+    id: 134,
     song: artists[17].albums[3].songs[0].title,
     artist: artists[17].name,
     album: artists[17].albums[3].title,
@@ -1067,7 +1075,7 @@ export const playlist = [
     released: artists[17].albums[3].released,
   },
   {
-    id: 134,
+    id: 135,
     song: artists[13].albums[0].songs[0].title,
     artist: artists[13].name,
     album: artists[13].albums[0].title,
@@ -1075,7 +1083,7 @@ export const playlist = [
     released: artists[13].albums[0].released,
   },
   {
-    id: 135,
+    id: 136,
     song: artists[21].albums[2].songs[0].title,
     artist: artists[21].name,
     album: artists[21].albums[2].title,
@@ -1083,7 +1091,7 @@ export const playlist = [
     released: artists[21].albums[2].released,
   },
   {
-    id: 136,
+    id: 137,
     song: artists[15].albums[1].songs[0].title,
     artist: artists[15].name,
     album: artists[15].albums[1].title,
@@ -1091,7 +1099,7 @@ export const playlist = [
     released: artists[15].albums[1].released,
   },
   {
-    id: 137,
+    id: 138,
     song: artists[8].albums[2].songs[2].title,
     artist: artists[8].name,
     album: artists[8].albums[2].title,
@@ -1099,7 +1107,7 @@ export const playlist = [
     released: artists[8].albums[2].released,
   },
   {
-    id: 138,
+    id: 139,
     song: artists[9].albums[0].songs[5].title,
     artist: artists[9].name,
     album: artists[9].albums[0].title,
@@ -1107,7 +1115,7 @@ export const playlist = [
     released: artists[9].albums[0].released,
   },
   {
-    id: 139,
+    id: 140,
     song: artists[4].albums[4].songs[2].title,
     artist: artists[4].name,
     album: artists[4].albums[4].title,
@@ -1115,7 +1123,7 @@ export const playlist = [
     released: artists[4].albums[4].released,
   },
   {
-    id: 140,
+    id: 141,
     song: artists[7].albums[0].songs[5].title,
     artist: artists[7].name,
     album: artists[7].albums[0].title,
@@ -1123,7 +1131,7 @@ export const playlist = [
     released: artists[7].albums[0].released,
   },
   {
-    id: 141,
+    id: 142,
     song: artists[12].albums[0].songs[4].title,
     artist: artists[12].name,
     album: artists[12].albums[0].title,
@@ -1131,7 +1139,7 @@ export const playlist = [
     released: artists[12].albums[0].released,
   },
   {
-    id: 142,
+    id: 143,
     song: artists[10].albums[2].songs[3].title,
     artist: artists[10].name,
     album: artists[10].albums[2].title,
@@ -1139,7 +1147,7 @@ export const playlist = [
     released: artists[10].albums[2].released,
   },
   {
-    id: 143,
+    id: 144,
     song: artists[8].albums[2].songs[4].title,
     artist: artists[8].name,
     album: artists[8].albums[2].title,
@@ -1147,7 +1155,7 @@ export const playlist = [
     released: artists[8].albums[2].released,
   },
   {
-    id: 144,
+    id: 145,
     song: artists[3].albums[0].songs[0].title,
     artist: artists[3].name,
     album: artists[3].albums[0].title,
@@ -1155,7 +1163,7 @@ export const playlist = [
     released: artists[3].albums[0].released,
   },
   {
-    id: 145,
+    id: 146,
     song: artists[14].albums[0].songs[0].title,
     artist: artists[14].name,
     album: artists[14].albums[0].title,
@@ -1163,7 +1171,7 @@ export const playlist = [
     released: artists[14].albums[0].released,
   },
   {
-    id: 146,
+    id: 147,
     song: artists[2].albums[0].songs[2].title,
     artist: artists[2].name,
     album: artists[2].albums[0].title,
@@ -1171,7 +1179,7 @@ export const playlist = [
     released: artists[2].albums[0].released,
   },
   {
-    id: 147,
+    id: 148,
     song: artists[19].albums[0].songs[2].title,
     artist: artists[19].name,
     album: artists[19].albums[0].title,
@@ -1179,7 +1187,7 @@ export const playlist = [
     released: artists[19].albums[0].released,
   },
   {
-    id: 148,
+    id: 149,
     song: artists[8].albums[2].songs[5].title,
     artist: artists[8].name,
     album: artists[8].albums[2].title,
@@ -1187,7 +1195,7 @@ export const playlist = [
     released: artists[8].albums[2].released,
   },
   {
-    id: 149,
+    id: 150,
     song: artists[17].albums[1].songs[2].title,
     artist: artists[17].name,
     album: artists[17].albums[1].title,
@@ -1195,7 +1203,7 @@ export const playlist = [
     released: artists[17].albums[1].released,
   },
   {
-    id: 150,
+    id: 151,
     song: artists[6].albums[0].songs[0].title,
     artist: artists[6].name,
     album: artists[6].albums[0].title,
@@ -1203,7 +1211,7 @@ export const playlist = [
     released: artists[6].albums[0].released,
   },
   {
-    id: 151,
+    id: 152,
     song: artists[21].albums[1].songs[0].title,
     artist: artists[21].name,
     album: artists[21].albums[1].title,
@@ -1211,7 +1219,7 @@ export const playlist = [
     released: artists[21].albums[1].released,
   },
   {
-    id: 152,
+    id: 153,
     song: artists[1].albums[0].songs[4].title,
     artist: artists[1].name,
     album: artists[1].albums[0].title,
@@ -1219,7 +1227,7 @@ export const playlist = [
     released: artists[1].albums[0].released,
   },
   {
-    id: 153,
+    id: 154,
     song: artists[18].albums[2].songs[1].title,
     artist: artists[18].name,
     album: artists[18].albums[2].title,
@@ -1227,7 +1235,7 @@ export const playlist = [
     released: artists[18].albums[2].released,
   },
   {
-    id: 154,
+    id: 155,
     song: artists[16].albums[2].songs[0].title,
     artist: artists[16].name,
     album: artists[16].albums[2].title,
@@ -1235,7 +1243,7 @@ export const playlist = [
     released: artists[16].albums[2].released,
   },
   {
-    id: 155,
+    id: 156,
     song: artists[10].albums[2].songs[4].title,
     artist: artists[10].name,
     album: artists[10].albums[2].title,
@@ -1243,7 +1251,7 @@ export const playlist = [
     released: artists[10].albums[2].released,
   },
   {
-    id: 156,
+    id: 157,
     song: artists[9].albums[1].songs[0].title,
     artist: artists[9].name,
     album: artists[9].albums[1].title,
@@ -1251,7 +1259,7 @@ export const playlist = [
     released: artists[9].albums[1].released,
   },
   {
-    id: 157,
+    id: 158,
     song: artists[18].albums[3].songs[0].title,
     artist: artists[18].name,
     album: artists[18].albums[3].title,
@@ -1259,7 +1267,7 @@ export const playlist = [
     released: artists[18].albums[3].released,
   },
   {
-    id: 158,
+    id: 159,
     song: artists[21].albums[2].songs[1].title,
     artist: artists[21].name,
     album: artists[21].albums[2].title,
@@ -1267,7 +1275,7 @@ export const playlist = [
     released: artists[21].albums[2].released,
   },
   {
-    id: 159,
+    id: 160,
     song: artists[3].albums[0].songs[4].title,
     artist: artists[3].name,
     album: artists[3].albums[0].title,
@@ -1275,7 +1283,7 @@ export const playlist = [
     released: artists[3].albums[0].released,
   },
   {
-    id: 160,
+    id: 161,
     song: artists[17].albums[1].songs[1].title,
     artist: artists[17].name,
     album: artists[17].albums[1].title,
@@ -1283,7 +1291,7 @@ export const playlist = [
     released: artists[17].albums[1].released,
   },
   {
-    id: 161,
+    id: 162,
     song: artists[5].albums[0].songs[3].title,
     artist: artists[5].name,
     album: artists[5].albums[0].title,
@@ -1291,7 +1299,7 @@ export const playlist = [
     released: artists[5].albums[0].released,
   },
   {
-    id: 162,
+    id: 163,
     song: artists[1].albums[2].songs[0].title,
     artist: artists[1].name,
     album: artists[1].albums[2].title,
@@ -1299,7 +1307,7 @@ export const playlist = [
     released: artists[1].albums[2].released,
   },
   {
-    id: 163,
+    id: 164,
     song: artists[4].albums[4].songs[0].title,
     artist: artists[4].name,
     album: artists[4].albums[4].title,
@@ -1307,7 +1315,7 @@ export const playlist = [
     released: artists[4].albums[4].released,
   },
   {
-    id: 164,
+    id: 165,
     song: artists[19].albums[1].songs[2].title,
     artist: artists[19].name,
     album: artists[19].albums[1].title,
@@ -1315,7 +1323,7 @@ export const playlist = [
     released: artists[19].albums[1].released,
   },
   {
-    id: 165,
+    id: 166,
     song: artists[9].albums[1].songs[1].title,
     artist: artists[9].name,
     album: artists[9].albums[1].title,

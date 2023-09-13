@@ -773,7 +773,7 @@ export const artists = {
         songs: [
           {
             title: "Riverwide",
-            duration: "4:07",
+            duration: "4:08",
           },
           {
             title: "It Don't Hurt",
