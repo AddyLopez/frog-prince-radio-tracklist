@@ -776,16 +776,22 @@ export const artists = {
         ],
       },
       {
+        title: "The Globe Sessions",
+        released: "1998",
+        songs: [
+          {
+            title: "Am I Getting Through - Pt.1 & 2",
+            duration: "5:31",
+          },
+        ],
+      },
+      {
         title: "Tuesday Night Music Club",
         released: "1993",
         songs: [
           {
             title: "Leaving Las Vegas",
             duration: "5:09",
-          },
-          {
-            title: "No One Said It Would Be Easy",
-            duration: "5:29",
           },
           {
             title: "What I Can Do for You",
